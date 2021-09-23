@@ -1,0 +1,25 @@
+{
+ "name": "react-wails",
+ "description": "React & Wails",
+ "author": {
+  "name": "",
+  "email": ""
+ },
+ "version": "0.1.0",
+ "binaryname": "react-wails",
+ "frontend": {
+  "dir": "frontend",
+  "install": "npm install",
+  "build": "npm run build",
+  "bridge": "src",
+  "serve": "npm run serve"
+ },
+ "tags": "",
+ "WailsVersion": "",
+ "CrossCompile": false,
+ "Platform": "",
+ "Architecture": "",
+ "LdFlags": "",
+ "GoPath": "",
+ "UseFirebug": false
+}
