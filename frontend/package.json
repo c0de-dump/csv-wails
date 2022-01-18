@@ -4,12 +4,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@wailsapp/runtime": "^1.0.10",
     "core-js": "^3.6.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "wails-react-scripts": "3.0.1-2",
+    "react-dropzone": "^11.5.1",
     "react-modal": "3.11.2",
-    "@wailsapp/runtime": "^1.0.10"
+    "react-router-dom": "^6.2.1",
+    "typescript": "^4.5.4",
+    "wails-react-scripts": "3.0.1-2"
   },
   "scripts": {
     "serve": "react-scripts start",
@@ -31,5 +35,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "@types/node": "^17.0.9",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "@types/react-modal": "^3.13.1",
+    "@types/react-router": "^5.1.17",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^5.1.0",
+    "eslint-plugin-react": "^7.28.0",
+    "prettier": "^2.5.1"
   }
 }
